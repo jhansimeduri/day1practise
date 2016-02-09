@@ -1,0 +1,11 @@
+alert("hjhhjh");
+var obj="this is a string object.";
+alert(obj);
+length=obj.length;
+alert(length);
+var index=obj.indexOf("is");
+var index2=obj.indexOf("is", index + 1);
+var index3=obj.indexOf("This");
+alert(index);
+alert(index2);
+alert(index3);
